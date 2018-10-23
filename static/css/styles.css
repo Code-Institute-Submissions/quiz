@@ -80,6 +80,82 @@ body {
 
 /*-- Quiz Styles --*/
 
+.quiz-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.question-score {
+    font-family: 'Oswald', sans-serif;
+    color: #fafafa;
+}
+
+.question-id {
+    font-size: 30px;
+}
+
+.fruit-image {
+    width: auto;
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quiz-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+#submit {
+    margin-left: 5px;
+    margin-right: 15px;
+    background-color: #2e7d32;
+    color: #fafafa;
+}
+
+#skip {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #d50000;
+    color: #fafafa;
+}
+
+#restart {
+    margin-left: 15px;
+    margin-right: 5px;
+    background-color: #01579b;
+    color: #fafafa;
+}
+
+.button-icon {
+    color: #fafafa;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.guesses-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ff6d00;
+}
+
+.guesses-list {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #fafafa;
+    list-style-type: none;
+    margin-right: 40px;
+    padding-bottom: 20px;
+}
+
+.guesses-list li {
+    display: inline-block;
+}
+
 /*-- Highscores Styles --*/
 
 /*-- Footer Styles --*/
