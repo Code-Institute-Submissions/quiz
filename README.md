@@ -50,3 +50,32 @@ A more detailed documentation of the Five Planes of UX is available [here](docum
 - Score feature allows Users 1, 2, 3 and 4 to see their scores (with a maximum of 60).
 - Highscores feature allows User 3 to see if they beat 'PianoMan123' or any other player that has completed the quiz.
 - The quiz as a whole allows User 4 to play the quiz at the same time as 'PianoMan123' and 'PizzaMan456'.
+
+## Testing
+
+Automated testing has been completed with the unit testing framework (unittest). I carried out six tests:
+
+- test_write_name
+- test_update_score
+- test_update_guess
+- test_get_guesses
+- test_check_answer
+- test_get_scores
+
+All of these tests passed when the [test_quiz.py](test_quiz.py) file was run. 
+
+User stories have been manually tested with different scenarios that the player may experience during their visit to the web application.
+
+1. Username form:
+    1. Go to the username input box
+    2. Try to press "Let's go!" without entering a username and verify a warning is prompted
+    2. Enter a unique username with a variety of special characters
+    3. Press "Let's Go!" to begin
+
+2. Answer form:
+    1. Enter a random guess and verify that an incorrect guess is displayed below the quiz and the current score is decremented by 5 points
+    2. Enter an empty input field and verify that an empty incorrect guess is displayed below the quiz and the current score is decremented by 5 points
+    3. Enter the correct answer and verify that 5 points are added to the current score
+    4. Skip a question and verify that 2 points are deducted from the current score
+    5. Press "Restart Quiz" and verify that the user is redirected to the index page
+
