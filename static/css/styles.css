@@ -44,4 +44,23 @@ body {
 
 /*-- Footer Styles --*/
 
+#footer {
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.github {
+    margin-left: 10px;
+    color: #fafafa;
+}
+
+#copyright {
+    color: #fafafa;
+    margin-top: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
 /*-- Media Queries --*/
