@@ -36,6 +36,12 @@ body {
     background-color: #ff6d00;
 }
 
+.heading {
+    font-family: 'Boogaloo', cursive;
+    color: #fafafa;
+    padding-top: 15px;
+}
+
 /*-- Header Styles --*/
 
 .nav-link {
