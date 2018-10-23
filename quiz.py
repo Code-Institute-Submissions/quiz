@@ -16,3 +16,9 @@ def update_guess(username, guess):
     Update guesses.txt with player's incorrect guesses
     """
     write_to_file("data/guesses.txt", "{0} - {1}\n".format(username, guess))
+    
+def update_score(username, score):
+    """
+    Update scores.txt with player's score
+    """
+    write_to_file("data/scores.txt", "{0} - {1}\n".format(username, score)) 
