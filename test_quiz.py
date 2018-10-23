@@ -36,6 +36,24 @@ class TestQuiz(unittest.TestCase):
                     player_data.write(line)
             player_data.truncate()
             player_data.close()
+            
+    # Test if guess is stored when update_guess function called
+    def test_update_guess(self):
+        username = "Player123"
+        guess = "guess"
+        quiz.update_guess(username, guess)
+        content = open("data/guesses.txt").read()
+        self.assertIn("{0} - {1}\n".format(username, guess), content)
+        
+        # Delete test guesses 
+        with open("data/guesses.txt", "r+") as guess_data:
+            guess = guess_data.readlines()
+            guess_data.seek(0)
+            for line in guess:
+                if line != "Player123 - guess" + "\n":
+                    guess_data.write(line)
+            guess_data.truncate()
+            guess_data.close()
 
 if __name__ == "__main__":
     unittest.main()
