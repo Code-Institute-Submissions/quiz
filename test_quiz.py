@@ -60,6 +60,17 @@ class TestQuiz(unittest.TestCase):
         d_guesses = quiz.get_guesses()
         self.assertTrue(len(d_guesses) <= 10)
         print("expected <= 10, got", len(d_guesses))
+        
+     # Test if check_answer works
+    def test_check_answer(self):
+        question = {
+            "image": "Image1",
+            "answer": ["Correct Answer"]
+        }
+        player_answer = "Wrong answer"
+        self.assertEqual(quiz.check_answer(question, player_answer), False)
+        player_answer = "Correct Answer"
+        self.assertEqual(quiz.check_answer(question, player_answer), True)
 
 
 if __name__ == "__main__":
