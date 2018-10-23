@@ -3,6 +3,7 @@ import quiz
 
 class TestQuiz(unittest.TestCase):
     
+    # Test if write_name writes the player's name to players.txt
     def test_write_name(self):
         username = "Player123"
         quiz.write_to_file("data/players.txt", username + "\n")
