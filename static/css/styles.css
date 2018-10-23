@@ -27,6 +27,15 @@ body {
 
 /*-- Header Styles --*/
 
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+}
+
+.link-icon {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 /*-- Index Styles --*/
 
 /*-- Quiz Styles --*/
