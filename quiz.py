@@ -22,3 +22,10 @@ def update_score(username, score):
     Update scores.txt with player's score
     """
     write_to_file("data/scores.txt", "{0} - {1}\n".format(username, score)) 
+    
+def load_file(filename):
+    """
+    Load files and return the data to variable
+    """
+    with open(filename, "r") as data:
+        return [row for row in data if len(row.strip()) > 0]
