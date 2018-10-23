@@ -27,16 +27,6 @@ def player(username):
         data = json.load(json_data)
     question_id = 0
     score = 0
-    
-    # Restart button:
-    """
-    Deletes players from all active players and their incorrect guesses
-    and redirects player to the home page
-    """
-    if request.method == "POST":
-        if request.form["button"] == "restart":
-                quiz.delete_player(username)
-                return redirect("/")   
             
     # Submit button:
     """
@@ -74,6 +64,17 @@ def player(username):
                 quiz.update_score(username, score)
                 quiz.delete_player(username)
                 return redirect ("/highscores")
+    
+    # Restart button:
+    """
+    Deletes players from all active players and their incorrect guesses
+    and redirects player to the home page
+    """
+    if request.method == "POST":
+        if request.form["button"] == "restart":
+                quiz.delete_player(username)
+                return redirect("/")
+    
             
     """
     If last question is answered correctly,
