@@ -5,6 +5,26 @@
 
 /*-- Special Styles --*/
 
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    
+}
+
+#wrapper {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    background: url('/static/img/fruit-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /*-- Header Styles --*/
 
 /*-- Index Styles --*/
