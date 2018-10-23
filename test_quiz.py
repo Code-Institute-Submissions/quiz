@@ -71,6 +71,13 @@ class TestQuiz(unittest.TestCase):
         self.assertEqual(quiz.check_answer(question, player_answer), False)
         player_answer = "Correct Answer"
         self.assertEqual(quiz.check_answer(question, player_answer), True)
+        
+    # Test if only top ten scores are shown
+    def test_get_scores(self):
+        data = "data/scores.txt"
+        scores = quiz.get_scores("data/scores.txt")
+        print(scores)
+        self.assertTrue(len(scores) <= 10)
 
 
 if __name__ == "__main__":
