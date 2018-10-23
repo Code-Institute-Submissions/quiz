@@ -2,7 +2,7 @@
 {% block content %}
 
     <!-- Main Quiz Content -->
-    <div class="container content-box">
+    <div class="container-fluid content-box">
         <div class="row quiz-content col-12">
             <!-- Exotic Fruit Image -->
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -17,16 +17,18 @@
                     <p class="text-center">Score: <span>{{score}}</span></p>
                 </div>
                 <!-- Answer Form -->
-                <form method="POST" class="form-inline justify-content-center">
-                    <input type="hidden" name="question_id" value="{{question_id}}">
-                    <input type="hidden" name="score" value="{{score}}">
-                    <input class="form-control col-8 text-center" type="text" id="answer" name="answer" placeholder="Enter your guess here..." autofocus autocomplete="off"></input>
-                    <div class="quiz-buttons">
-                        <button class="btn hvr-grow" id="submit" name="button" value="submit">Submit<i class="fa fa-laugh button-icon"></i></button>
-                        <button class="btn hvr-grow" id="skip" name="button" value="skip">Skip<i class="fa fa-sad-cry button-icon"></i></button>
-                        <button class="btn hvr-grow" id="restart" name="button" value="restart">Restart Quiz<i class="fa fa-dizzy button-icon"></i></button>
-                    </div>
-                </form>
+                <div class="row justify-content-center">
+                    <form method="POST">
+                        <input type="hidden" name="question_id" value="{{question_id}}">
+                        <input type="hidden" name="score" value="{{score}}">
+                        <input class="form-control  text-center" type="text" id="answer" name="answer" placeholder="Enter your guess here..." autofocus autocomplete="off"></input>
+                    </form>
+                </div>
+                <div class="row justify-content-center quiz-buttons">
+                    <button class="btn hvr-grow" id="submit" name="button" value="submit">Submit<i class="fa fa-laugh button-icon"></i></button>
+                    <button class="btn hvr-grow" id="skip" name="button" value="skip">Skip<i class="fa fa-sad-cry button-icon"></i></button>
+                    <button class="btn hvr-grow" id="restart" name="button" value="restart">Restart Quiz<i class="fa fa-dizzy button-icon"></i></button>
+                </div>
             </div>
         </div>
     </div>
