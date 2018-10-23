@@ -26,6 +26,7 @@ Real Life User Stories:
 - User 4: I would like to be able to play at the same time as PianoMan123 and PizzaMan456.
 
 Wireframes:
+
 The mockups for Desktop, Tablet and Mobile view can be found in /documentation/mockups. These have been made through Balsamiq Mockups 3. 
 
 A more detailed documentation of the Five Planes of UX is available [here](documentation/ux_planes.pdf).
