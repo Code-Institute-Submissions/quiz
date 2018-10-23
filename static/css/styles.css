@@ -29,6 +29,13 @@ body {
     padding-bottom: 60px;
 }
 
+
+.content-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ff6d00;
+}
+
 /*-- Header Styles --*/
 
 .nav-link {
