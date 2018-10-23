@@ -71,3 +71,20 @@ def check_answer(question, player_guess):
         return True
     else:
         return False
+        
+def get_scores(data):
+    """
+    Open scores.txt and retrieve the top ten highest scores
+    """
+    scores = []
+    with open(data) as f:
+        for line in f:
+            # If statement fixes ValueError bug
+            if ' - ' in line:
+                name, score = line.split(' - ')
+                score = int(score)
+                scores.append((name, score))
+    
+    scores.sort(key=lambda s: s[1], reverse=True) 
+    top_scores = scores[:10]
+    return top_scores
