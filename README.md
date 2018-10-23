@@ -30,3 +30,13 @@ Wireframes:
 The mockups for Desktop, Tablet and Mobile view can be found in /documentation/mockups. These have been made through Balsamiq Mockups 3. 
 
 A more detailed documentation of the Five Planes of UX is available [here](documentation/ux_planes.pdf).
+
+## Features
+
+- Username input field - allowing user to enter a unique username
+- Start button - allowing user to proceed to the quiz
+- Instructions - allowing user to find out how to do the quiz before they start
+- Answer input field - allowing user to enter their answer/guess, followed by submit, skip or restart quiz buttons
+- Score - allowing user to see their score whilst they play the quiz
+- Incorrect guesses - allowing user to see their incorrect guesses as well as previous player's incorrect guesses
+- Highscores table - allowing users to compare their scores with each other, also giving user the option to replay the quiz
