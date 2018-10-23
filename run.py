@@ -100,3 +100,8 @@ def player(username):
 def highscores():
     top_scores = quiz.get_scores("data/scores.txt")
     return render_template("highscores.html", scores=top_scores)
+    
+if __name__ == '__main__':
+    app.run(host=os.getenv('IP'),
+        port=int(os.getenv('PORT')),
+        debug=True)
