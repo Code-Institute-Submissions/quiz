@@ -40,3 +40,13 @@ A more detailed documentation of the Five Planes of UX is available [here](docum
 - Score - allowing user to see their score whilst they play the quiz
 - Incorrect guesses - allowing user to see their incorrect guesses as well as previous player's incorrect guesses
 - Highscores table - allowing users to compare their scores with each other, also giving user the option to replay the quiz
+
+### Existing Features
+
+- Username input field and start button allows Users 1 to enter their unique username of 'PianoMan123' at the same time on a different browser as another user, and to proceed to the quiz.
+- Instructions feature enables User 2 to find out how to play the quiz.
+- Answer input field allows Users 1, 2, 3 and 4 to enter and submit their own guesses.
+- Incorrect guesses allows Users 1, 2, 3 and 4 to see which incorrect guesses have been entered by a particular user, e.g. User 2 could see User 4's incorrect guess. An issue with this is that the quiz page would need to be refreshed regularly if users would like to see other's incorrect guesses in real time. 
+- Score feature allows Users 1, 2, 3 and 4 to see their scores (with a maximum of 60).
+- Highscores feature allows User 3 to see if they beat 'PianoMan123' or any other player that has completed the quiz.
+- The quiz as a whole allows User 4 to play the quiz at the same time as 'PianoMan123' and 'PizzaMan456'.
