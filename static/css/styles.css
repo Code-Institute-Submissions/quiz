@@ -219,8 +219,24 @@ table {
 
 /* Tablets, Ipads (portrait) */
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    nav {
+        min-height: 100px !important;
+    }
+    
+    footer {
+        min-height: 100px !important;
+    }
+    
+    #copyright {
+        margin-top: 33px;
+        font-size: 23px;
+    }
+    
+    #content {
+        padding-top: 70px;
+    }
 }
 
 /* Tablets, Ipads (landscape) */
