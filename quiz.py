@@ -52,3 +52,12 @@ def delete_player(username):
                 data.write(line)
         data.truncate()
         data.close()
+        
+def get_guesses():
+    """
+    Open guesses.txt and gets ten most recent incorrect answers 
+    to display on page. Function uses deque to return last ten guesses.
+    """
+    guesses = load_file("data/guesses.txt")
+    d_guesses = deque(guesses, 10)
+    return d_guesses
