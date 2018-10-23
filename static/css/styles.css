@@ -164,6 +164,30 @@ body {
 
 /*-- Highscores Styles --*/
 
+.sentence {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.table-headings {
+    font-size: 20px;
+}
+
+table {
+    font-family: 'Oswald', sans-serif;
+    color: #fafafa;
+}
+
+.play-again {
+    margin-bottom: 15px;
+}
+
+.play-again:hover {
+    text-decoration: none;
+    color: #fafafa;
+}
+
 /*-- Footer Styles --*/
 
 #footer {
