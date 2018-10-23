@@ -109,32 +109,25 @@ body {
 }
 
 .quiz-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-top: 20px;
-    
 }
 
 #submit {
-    margin-left: 5px;
-    margin-right: 15px;
     background-color: #2e7d32;
     color: #fafafa;
+    margin: 5px;
 }
 
 #skip {
-    margin-left: 5px;
-    margin-right: 5px;
     background-color: #d50000;
     color: #fafafa;
+    margin: 5px;
 }
 
 #restart {
-    margin-left: 15px;
-    margin-right: 5px;
     background-color: #01579b;
     color: #fafafa;
+    margin: 5px;
 }
 
 .button-icon {
