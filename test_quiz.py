@@ -54,6 +54,13 @@ class TestQuiz(unittest.TestCase):
                     guess_data.write(line)
             guess_data.truncate()
             guess_data.close()
+            
+    # Test if get_guesses returns 10 or less incorrect guesses
+    def test_get_guesses(self):
+        d_guesses = quiz.get_guesses()
+        self.assertTrue(len(d_guesses) <= 10)
+        print("expected <= 10, got", len(d_guesses))
+
 
 if __name__ == "__main__":
     unittest.main()
