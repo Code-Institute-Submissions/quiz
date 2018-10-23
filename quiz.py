@@ -61,3 +61,13 @@ def get_guesses():
     guesses = load_file("data/guesses.txt")
     d_guesses = deque(guesses, 10)
     return d_guesses
+    
+def check_answer(question, player_guess):
+    """
+    Check player's guess - if correct, add 5 to their score
+    and move onto the next exotic fruit image.
+    """
+    if player_guess in question["answer"]:
+        return True
+    else:
+        return False
