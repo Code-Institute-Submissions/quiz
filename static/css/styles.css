@@ -25,6 +25,10 @@ body {
     background-position: center;
 }
 
+#content {
+    padding-bottom: 60px;
+}
+
 /*-- Header Styles --*/
 
 .nav-link {
