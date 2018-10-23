@@ -93,3 +93,10 @@ def player(username):
                             guesses=d_guesses, 
                             score=score, 
                             username=username)
+                            
+# END OF GAME / HIGHSCORES
+
+@app.route("/highscores")
+def highscores():
+    top_scores = quiz.get_scores("data/scores.txt")
+    return render_template("highscores.html", scores=top_scores)
