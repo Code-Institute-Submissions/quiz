@@ -1,0 +1,76 @@
+[
+    {
+        "image": "/static/img/cherimoya.jpg",
+        "answer": ["cherimoya", "cherimoyas"]
+    },
+    
+    {
+        "image": "/static/img/cucamelon.jpg",
+        "answer": ["cucamelon", "cucamelons"]
+    },
+    
+    {
+        "image": "/static/img/durian.jpg",
+        "answer": ["durian"]
+    },
+    
+    {
+        "image": "/static/img/feijoa.jpg",
+        "answer": ["feijoa", "feijoa"]
+    },
+    
+    {
+        "image": "/static/img/figs.jpg",
+        "answer": ["figs", "fig"]
+    },
+    
+    {
+        "image": "/static/img/guava.jpg",
+        "answer": ["guava", "guavas"]
+    },
+    
+    {
+        "image": "/static/img/jackfruit.jpg",
+        "answer": ["jackfruit", "jackfruits"]
+    },
+    
+    {
+        "image": "/static/img/kiwano.jpg",
+        "answer": ["kiwano", "kiwanos"]
+    },
+    
+    {
+        "image": "/static/img/dragon-fruit.jpg",
+        "answer": ["dragon fruit"]
+    },
+    
+    {
+        "image": "/static/img/lychee.jpg",
+        "answer": ["lychee", "lychees"]
+    },
+    
+    {
+        "image": "/static/img/mangosteen.jpeg",
+        "answer": ["mangosteen"]
+    },
+    
+    {
+        "image": "/static/img/papaya.jpg",
+        "answer": ["papaya"]
+    },
+    
+    {
+        "image": "/static/img/kumquat.jpg",
+        "answer": ["kumquat", "kumquats"]
+    },
+    
+    {
+        "image": "/static/img/rambutan.jpg",
+        "answer": ["rambutan"]
+    },
+    
+    {
+        "image": "/static/img/tamarillo.jpg",
+        "answer": ["tamarillo"]
+    }
+]
