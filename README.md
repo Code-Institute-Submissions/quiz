@@ -111,6 +111,17 @@ User stories have been manually tested with different scenarios that the player 
 This web application has been tested for responsiveness on different device screen sizes with the Chrome Developer Tools and Firefox Developer Tools.
 There have been issues with the centering of content on mobile devices in both portrat and landscape, however, these have been fixed with the rearrangement of Bootstrap's columns and using media queries for specific devices, such as the iPad Pro and the Nexus 10. 
 
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- Different values for environment variables (Heroku Config Vars)?
+- Different configuration files?
+- Separate git branch?
+
+In addition, if it is not obvious, you should also describe how to run your code locally.
+
 ## Credits and Acknowledgements
 
 - I would like to credit Stack Overflow for helping me fix all of the bugs within the application, and I would also like to credit the Code Institute Practical Python lessons.
