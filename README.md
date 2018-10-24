@@ -116,13 +116,16 @@ HTML and CSS code has been passed through the W3C Markup Validation Service. The
 
 ## Deployment
 
+To run this application locally, you will need to clone or download the repository [here](https://github.com/kimpea/quiz) into a local IDE.
+Check for any dependencies which are required for the application to run, e.g. Flask. This can be done by checking the requirements.txt file. 
+Run the run.py file and click to view in a browser of your choice. Otherwise, the application can be viewed [here](https://python-quiz.herokuapp.com/).
+
 For version control, this project was pushed to GitHub [here](https://github.com/kimpea/quiz).
 This project has been deployed to [Heroku](https://python-quiz.herokuapp.com/). Config vars for heroku are:
 - IP - 0.0.0.0
 - PORT - 5000
 
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Differences between development version and deployment version include fixing stray tags and updating the README.
 
 ## Credits and Acknowledgements
 
