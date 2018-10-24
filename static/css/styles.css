@@ -40,6 +40,7 @@ body {
     font-family: 'Boogaloo', cursive;
     color: #fafafa;
     padding-top: 15px;
+    font-size: 50px;
 }
 
 /*-- Header Styles --*/
@@ -170,7 +171,7 @@ body {
 
 .sentence {
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #fafafa;
 }
 
