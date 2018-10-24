@@ -110,3 +110,27 @@ User stories have been manually tested with different scenarios that the player 
 
 This web application has been tested for responsiveness on different device screen sizes with the Chrome Developer Tools and Firefox Developer Tools.
 There have been issues with the centering of content on mobile devices in both portrat and landscape, however, these have been fixed with the rearrangement of Bootstrap's columns and using media queries for specific devices, such as the iPad Pro and the Nexus 10. 
+
+## Credits and Acknowledgements
+
+- I would like to credit Stack Overflow for helping me fix all of the bugs within the application, and I would also like to credit the Code Institute Practical Python lessons.
+
+### Media
+
+- The photos used in this site are obtained from the following links:
+    - [https://www.finecooking.com/ingredient/cherimoyas](Cherimoya)
+    - [https://www.amazon.com/15-Cucamelon-Seeds-Watermelon-Melothria/dp/B071SG2FF2](Cucamelon)
+    - [https://www.rachaelraymag.com/food/how-to-make-the-most-of-dragonfruit-season](Dragon Fruit)
+    - [https://www.indiamart.com/proddetail/durian-fruit-12676665430.html](Durian)
+    - [https://www.healthyfood.co.nz/healthy-shopping/in-season-late-autumn-feijoas](Feijoa)
+    - [https://www.exoticfruitsusa.com/best-place-to-buy-fresh-figs-p/brown20figs.htm](Figs)
+    - [https://timesofoman.com/article/139766](Guava)
+    - [https://www.fruitpassion.ch/en/product/jackfruit/](Jackfruit)
+    - [https://www.eatme.eu/products/kiwano](Kiwano)
+    - [https://www.fourwindsgrowers.com/products/nagami-kumquat-one-year-old-tree](Kumquat)
+    - [http://befreshcorp.net/product/lychee/](Lychee)
+    - [https://www.indiamart.com/proddetail/mangosteen-12967149530.html](Mangosteen)
+    - [https://hirts.com/tainung-papaya-tree-carica-papaya-easy-to-grow-fruit-4-pot/](Papaya)
+    - [https://www.cfgastro.de/wp-content/themes/cfgastro/images//2016/10/03_Exoten.pdf](Rambutan)
+    - [https://www.exoticfruitmarket.net/Tamarillo-Fruit-Where-can-I-buy-Tamarillo-p/tamarillo6.htm](Tamarillo)
+    - [https://wallpaperscraft.com/tag/fruit/downloads](Background Image)
