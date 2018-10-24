@@ -51,6 +51,35 @@ A more detailed documentation of the Five Planes of UX is available [here](docum
 - Highscores feature allows User 3 to see if they beat 'PianoMan123' or any other player that has completed the quiz.
 - The quiz as a whole allows User 4 to play the quiz at the same time as 'PianoMan123' and 'PizzaMan456'.
 
+### Features Left to Implement
+- Shuffle feature - shuffles all of the images of exotic fruits each time the quiz is restarted, making the quiz more challenging
+- Hints feature - the player could have the chance to view a hint, however, this takes away a point from the player's current score. This could make the quiz easier to complete.
+
+## Technologies Used
+
+- HTML
+    - This project uses **HTML** to build the foundation of the web application and include links to Bootstrap, Bootstrap JS, CSS, and Font Awesome.
+- CSS
+    - This project uses **CSS** to style the features of the web application, including the header, footer and each page of the quiz.
+- [Python](https://www.python.org/)
+    - This project uses **Python** to provide the backend functionality of the quiz, and also to run automated tests for the application. 
+- [JSON](https://www.json.org/)
+    - This project uses **JSON** to provide the core data for the quiz, including exotic fruits images and names.
+- [Flask](http://flask.pocoo.org/)
+    - This project uses the **Flask** microframework to bring the frontend and backend of the application together.
+- [jQuery](https://jquery.com/)
+    - This project uses **jQuery** which is included with Bootstrap to allow for a dropdown menu to occur for mobile and tablet users. 
+- [Bootstrap 4](https://getbootstrap.com/)
+    - This project uses **Bootstrap 4** in order to apply columns, a navbar, a footer and to justify content within each page for a clean, fresh look. It is also used to implement a mobile-first approach and to aim for responsive design.
+- [Bootswatch](https://bootswatch.com/united/)
+    - This project uses the **Bootswatch Journal Theme** to apply the navbar within the header, and also to set the colour scheme of the website.
+- [Font Awesome](https://fontawesome.com/)
+    - This project uses **Font Awesome** to provide icons for the quiz buttons in the main quiz page and for 'Home' and 'Highscores' in the header for each page.
+- [Balsamiq Mockups 3](https://balsamiq.com/)
+    - This project uses **Balsamiq Mockups 3** for the Skeleton and Surface Plan, providing desktop, tablet and mobile views of the web application.
+- [Google Fonts](https://fonts.google.com/)
+    - This project uses **Google Fonts** to provide the 'Boogaloo' and 'Oswald' fonts for the headings of the web application.
+
 ## Testing
 
 Automated testing has been completed with the unit testing framework (unittest). I carried out six tests:
@@ -79,3 +108,5 @@ User stories have been manually tested with different scenarios that the player 
     4. Skip a question and verify that 2 points are deducted from the current score
     5. Press "Restart Quiz" and verify that the user is redirected to the index page
 
+This web application has been tested for responsiveness on different device screen sizes with the Chrome Developer Tools and Firefox Developer Tools.
+There have been issues with the centering of content on mobile devices in both portrat and landscape, however, these have been fixed with the rearrangement of Bootstrap's columns and using media queries for specific devices, such as the iPad Pro and the Nexus 10. 
