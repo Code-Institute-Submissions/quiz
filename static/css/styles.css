@@ -216,18 +216,6 @@ table {
 
 /*-- Media Queries --*/
 
-/* Desktops */
-
-@media (min-width: 1281px) {
-  
-}
-
-/* Laptops, Desktops */
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-}
-
 /* Tablets, Ipads (portrait) */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -246,24 +234,111 @@ table {
     }
     
     #content {
-        padding-top: 70px;
+        padding-top: 50px;
     }
+    
+    .statement {
+        font-size: 30px;
+    }
+    .enter {
+        font-size: 30px;
+    }
+    
+    .instructions {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .heading {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+    
+    .sentence {
+        font-size: 20px;
+    }
+    
+    .guesses-box {
+        margin-bottom: 70px;
+    }
+
 }
 
 /* Tablets, Ipads (landscape) */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
+    
+    .statement {
+        font-size: 30px;
+    }
+    .enter {
+        font-size: 30px;
+    }
+    
+    .instructions {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .heading {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+    
+    .sentence {
+        font-size: 20px;
+    }
 }
 
 /* Low Resolution Tablets, Mobiles (Landscape) */
 
 @media (min-width: 481px) and (max-width: 767px) {
- 
+    .statement {
+        font-size: 30px;
+    }
+    
+    .enter {
+        font-size: 30px;
+    }
+    
+    .instructions {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .heading {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+    
+    .sentence {
+        font-size: 20px;
+    }
 }
 
 /* Most of the Smartphones Mobiles (Portrait) */
 
 @media (min-width: 320px) and (max-width: 480px) {
- 
+    .statement {
+        font-size: 30px;
+    }
+    
+    .enter {
+        font-size: 30px;
+    }
+    
+    .instructions {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .heading {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+    
+    .sentence {
+        font-size: 20px;
+    }
+
 }
