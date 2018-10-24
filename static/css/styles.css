@@ -32,7 +32,7 @@ body {
 
 .content-box {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     background-color: #ff6d00;
 }
 
@@ -234,7 +234,7 @@ table {
     }
     
     #content {
-        padding-top: 50px;
+        padding-bottom: 90px;
     }
     
     .statement {
@@ -342,3 +342,10 @@ table {
     }
 
 }
+
+@media only screen and (device-width : 375px) and (device-height : 812px) and (orientation : landscape) {
+    .myfooter {
+        margin-top: 50px;
+    }
+}
+    
